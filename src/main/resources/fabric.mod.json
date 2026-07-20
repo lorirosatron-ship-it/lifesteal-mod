@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "lifesteal",
+  "version": "${version}",
+  "name": "LifeSteal Server-Side",
+  "description": "A completely vanilla-compatible server-side Lifesteal mod.",
+  "authors": [ "AI Collaborator" ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "dedicated_server",
+  "entrypoints": {
+    "main": [
+      "com.lifesteal.LifeStealMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "1.21.1",
+    "fabric-api": "*"
+  }
+}
